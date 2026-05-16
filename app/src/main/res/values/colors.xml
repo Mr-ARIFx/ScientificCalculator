@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_base">#1C1C1C</color>
+    <color name="bg_display">#1C1C1C</color>
+    <color name="bg_sci">#222222</color>
+    <color name="bg_func">#222222</color>
+    <color name="bg_num">#2A2A2A</color>
+    <color name="bg_op">#333333</color>
+    <color name="bg_eq">#3D3D3D</color>
+    <color name="divider">#333333</color>
+    <color name="text_result">#FFFFFF</color>
+    <color name="text_expr">#666666</color>
+    <color name="text_mode">#888888</color>
+    <color name="text_num">#FFFFFF</color>
+    <color name="text_op">#E8E8E8</color>
+    <color name="text_func">#AAAAAA</color>
+    <color name="text_sci">#999999</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Theme.ScientificCalculator" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#2A2A2A</item>
+        <item name="colorPrimaryDark">#1C1C1C</item>
+        <item name="colorAccent">#FFFFFF</item>
+        <!-- Background and status bar -->
+        <item name="android:windowBackground">#1C1C1C</item>
+        <item name="android:statusBarColor">#1C1C1C</item>
+        <item name="android:navigationBarColor">#2A2A2A</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="23">false</item>
+    </style>
+
+
+    <style name="Base" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">0dp</item>
+        <item name="elevation">0dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:letterSpacing">0</item>
+    </style>
+
+
+    <style name="NumBtn" parent="Base">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">#2A2A2A</item>
+        <item name="rippleColor">#3D3D3D</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="OpBtn" parent="Base">
+        <item name="android:textColor">#E8E8E8</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">#333333</item>
+        <item name="rippleColor">#444444</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="EqBtn" parent="Base">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">#3D3D3D</item>
+        <item name="rippleColor">#505050</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="FuncBtn" parent="Base">
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">#222222</item>
+        <item name="rippleColor">#333333</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="SciBtn" parent="Base">
+        <item name="android:textColor">#999999</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="backgroundTint">#222222</item>
+        <item name="rippleColor">#2E2E2E</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="VDiv">
+        <item name="android:layout_width">1dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">#333333</item>
+    </style>
+
+    <style name="HDiv">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#333333</item>
+    </style>
+
+</resources>

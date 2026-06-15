@@ -4,7 +4,7 @@ for desgin I used xml and for functionalities java
 
 ## Simple Ui and Ux
 
-calculatorSS.png
+![Calculator Screenshot](calculatorSS.png)
 
 ## Click here to Download the app
 
